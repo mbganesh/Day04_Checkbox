@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/Java"
+        android:layout_width="105dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Java" />
+
+
+    <CheckBox
+        android:id="@+id/python"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="366dp"
+        android:text="Python" />
+
+    <CheckBox
+        android:id="@+id/dotnet"
+        android:layout_width="154dp"
+        android:layout_height="85dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="113dp"
+        android:text=".Net" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="254dp"
+        android:onClick="onSelect"
+        android:text="Select"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
